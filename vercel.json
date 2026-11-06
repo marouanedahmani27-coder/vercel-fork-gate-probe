@@ -1,0 +1,3 @@
+{
+  "buildCommand": "echo \"[GATE-WITNESS] build ran uid=$(id -u) oidc_len=${#VERCEL_OIDC_TOKEN} vercel_env=${VERCEL_ENV} has_token=${VERCEL_OIDC_TOKEN:+yes}\" && mkdir -p public && echo gate-probe > public/index.html"
+}
